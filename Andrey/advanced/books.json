@@ -2,20 +2,20 @@ var books = `[{
 	"title": "Javascript for Dummies",
   	"author": "Dummy Dumb Dumb",
   	"read": "false",
-  	"img" : ""
+  	"img" : "https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624__340.jpg"
   }, {
 	"title": "Javascript for Smartasses",
   	"author": "Smarty Ass",
   	"read": "true",
-  	"img" : ""
+  	"img" : "https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400__340.png"
   }, {
 	"title": "C++ for beginners",
   	"author": "The C++ Guru",
   	"read": "false",
-  	"img" : ""
+  	"img" : "https://cdn.pixabay.com/photo/2015/02/03/12/23/c-622435__340.jpg"
   }, {
 	"title": "Python for none",
   	"author": "Secret Person",
   	"read": "true",
-  	"img" : ""
+  	"img" : "https://media.istockphoto.com/photos/python-programming-language-concept-woman-developer-with-her-hand-picture-id1189210101?b=1&k=6&m=1189210101&s=170667a&w=0&h=ydMa_xLhs0uBB2mWWlZSSnBTrMSpTvFMIyNF0R6TQ38="
   }]`
