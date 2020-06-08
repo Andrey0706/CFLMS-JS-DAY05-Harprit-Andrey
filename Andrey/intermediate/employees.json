@@ -1,0 +1,81 @@
+var employees = `[{
+	  "Unique_ID": "1",
+      "firstName": "Patrik",
+      "lastName": "Jonathan",
+      "emailAddress": "patrik.k.jonathan@gmail.com",
+      "jobTitle": "Senior Developer",
+      "Salary": "$3200"
+
+	},{
+	  "Unique_ID": "2",
+      "firstName": "Dorothy ",
+      "lastName": "Owens",
+      "emailAddress": "DorothyROwens@einrot.com",
+      "jobTitle": "Junior developer",
+      "Salary": "$2800"
+
+	},{
+	  "Unique_ID": "3",
+      "firstName": "Jonathan ",
+      "lastName": "Eicher",
+      "emailAddress": "JonathanEEicher@einrot.com",
+      "jobTitle": "Graphic Designer",
+      "Salary": "$2750"
+
+	},{
+	  "Unique_ID": "4",
+      "firstName": "Robert ",
+      "lastName": "Holloway",
+      "emailAddress": "RobertMHolloway@einrot.com",
+      "jobTitle": "CEO",
+      "Salary": "$100000"
+
+	},{
+	  "Unique_ID": "5",
+      "firstName": "Lewis ",
+      "lastName": "Robinson",
+      "emailAddress": "LewisSRobinson@einrot.com",
+      "jobTitle": "CTO",
+      "Salary": "$20000"
+
+	},{
+	  "Unique_ID": "6",
+      "firstName": "Wendy ",
+      "lastName": "McLeod",
+      "emailAddress": "WendyMMcLeod@cuvox.de",
+      "jobTitle": "Accountent",
+      "Salary": "$3500"
+
+	},{
+	  "Unique_ID": "7",
+      "firstName": "Patrik",
+      "lastName": "Jonathan",
+      "emailAddress": "patrik.k.jonathan@gmail.com",
+      "jobTitle": "E1",
+      "Salary": "$1000"
+
+	},{
+	  "Unique_ID": "8",
+      "firstName": "Demarcus",
+      "lastName": "Damato",
+      "emailAddress": "DemarcusKDamato@cuvox.de",
+      "jobTitle": "back-end developer",
+      "Salary": "$2950"
+
+	},{
+	  "Unique_ID": "9",
+      "firstName": "Darryl ",
+      "lastName": "Newsom",
+      "emailAddress": "DarrylHNewsom@cuvox.de",
+      "jobTitle": "founder",
+      "Salary": "$150000"
+
+	},{
+	  "Unique_ID": "10",
+      "firstName": "Janet ",
+      "lastName": "Wells",
+      "emailAddress": "JanetJWells@cuvox.de",
+      "jobTitle": "Front-end developer",
+      "Salary": "$3700"
+
+	}]`;

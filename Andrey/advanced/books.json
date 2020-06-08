@@ -1,0 +1,21 @@
+var books = `[{
+	"title": "Javascript for Dummies",
+  	"author": "Dummy Dumb Dumb",
+  	"read": "false",
+  	"img" : ""
+  }, {
+	"title": "Javascript for Smartasses",
+  	"author": "Smarty Ass",
+  	"read": "true",
+  	"img" : ""
+  }, {
+	"title": "C++ for beginners",
+  	"author": "The C++ Guru",
+  	"read": "false",
+  	"img" : ""
+  }, {
+	"title": "Python for none",
+  	"author": "Secret Person",
+  	"read": "true",
+  	"img" : ""
+  }]`

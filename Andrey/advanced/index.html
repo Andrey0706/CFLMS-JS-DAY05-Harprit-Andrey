@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Advanced</title>
+</head>
+<body>
+
+<script>
+    // Create XMLHttpRequest object.
+    var oXHR = new XMLHttpRequest();
+
+    // Initiate request.
+    oXHR.onreadystatechange = reportStatus;
+    oXHR.open("GET", "http://localhost/dbWIP/data.json", true);  // get json file.
+    oXHR.send();
+
+    function reportStatus() {
+        if (oXHR.readyState == 4) {		// Check if request is complete.
+          //  Write data to a DIV element.
+        //    document.getElementById('showData').innerHTML = this.responseText;
+        }
+    }
+
+    var theBooks = JSON.parse(books);
+    console.log(books[0].title);
+</script>
+</body>
+</html>

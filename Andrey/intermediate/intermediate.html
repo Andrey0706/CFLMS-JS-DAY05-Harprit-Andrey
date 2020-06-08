@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Intermediate</title>
+</head>
+<body>
+<script  type="text/javascript" src="employees.json" ></script>
+<script>
+	var workers = JSON.parse(employees);
+	console.log(workers[1].firstName);
+
+	document.write(`
+	<table border = '1'>
+		<head>
+		<th>ID</th>
+		<th>First Name</th>
+		<th>Last Name</th>
+		<th>E-mail</th>
+		<th>Job Title</th>
+		<th>Salary</th>
+		</head>
+		`)
+
+	for(var i=0; i<workers.length;i++){
+		document.write(`
+			<tr>
+				<td>${workers[i].Unique_ID}</td>
+				<td>${workers[i].firstName}</td>
+				<td>${workers[i].lastName}</td>
+				<td>${workers[i].emailAddress}</td>
+				<td>${workers[i].jobTitle}</td>
+				<td>${workers[i].Salary}</td>
+			</tr>
+			`)
+	}
+	document.write(`</table>`);
+</script>
+</body>
+</html>

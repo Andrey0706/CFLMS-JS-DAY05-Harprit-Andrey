@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic</title>
+</head>
+<body>
+
+<script>
+
+	var sandwiches = `{ "sandwich": "hamburger", "calories": "260" }`;
+var fries = `{ "fries_size": "Large French Fries", "calories": "570" }`;
+
+var sandw = JSON.parse(sandwiches);
+var fr = JSON.parse(fries);
+
+document.write(`My favorite sandwich is a ${sandw.sandwich} which has approximately ${sandw.calories} calories, along with it I enjoy eating ${fr.fries_size} which have about ${fr.calories} calories.`);
+</script>
+</body>
+</html>
