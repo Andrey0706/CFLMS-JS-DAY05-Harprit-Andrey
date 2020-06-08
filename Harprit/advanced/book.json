@@ -1,0 +1,13 @@
+ var book =[{
+ 	"title"	: "Javascript for Dummies",
+   	"author": "Dummy Dumb Dumb",
+   	"read"	: "false",
+   	"img"	: "https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624__340.jpg"
+ 
+  }, {
+  	"title"	: "Java",
+   	"author": "Ackermann",
+   	"read"	: "true",
+   	"img"	: "https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624__340.jpg"
+  }]
+ 

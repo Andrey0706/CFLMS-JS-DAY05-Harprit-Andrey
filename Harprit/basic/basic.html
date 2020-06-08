@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Basic</title>
+</head>
+<body>
+
+	<div id="result"></div>
+	
+	<script>
+		var sandwiches = `{ "sandwich": "hamburger", "calories": "260" }`;
+		var objOne = JSON.parse(sandwiches);
+		var fries = `{ "fries_size": "Large French Fries", "calories": "570" }`;
+		var objTwo = JSON.parse(fries);
+
+		 
+
+		document.getElementById('result').innerHTML = "<p>My favorite sandwich is a " + objOne.sandwich + " which has approximately "+ objOne.calories + " calories, along with it I enjoy eating "+ objTwo.fries_size +" which have about "+objTwo.calories+" calories</p>";
+	</script>				
+
+</body>
+</html>
+
+ 
