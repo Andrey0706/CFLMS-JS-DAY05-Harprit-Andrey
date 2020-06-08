@@ -1,0 +1,73 @@
+var employee = [{
+ 
+		   "id": "001",
+		   "FirstName": "Peter",
+		   "LastName": "Peterson",
+		   "email_address":"peterpeterson@yahoo.de",
+		   "Job_title":"Architect",
+		   "Salary":50000
+		}, {
+			"id": "002",
+		   "FirstName": "Hans",
+		   "LastName": "Hanson",
+		   "email_address":"hans@yahoo.de",
+		   "Job_title":"designer",
+		   "Salary":40000
+		}, {
+			"id": "003",
+		   "FirstName": "Ingrit",
+		   "LastName": "berg",
+		   "email_address":"ingridberg@yahoo.de",
+		   "Job_title":"Archeologin",
+		   "Salary":50000
+		}, {
+			"id": "004",
+		   "FirstName": "Stefanie",
+		   "LastName": "Bauer",
+		   "email_address":"s.bauer@yahoo.de",
+		   "Job_title":"Verkäuferin",
+		   "Salary":30000
+		}, {
+			"id": "005",
+		   "FirstName": "Paul",
+		   "LastName": "Paulson",
+		   "email_address":"paulpaulson@yahoo.de",
+		   "Job_title":"student",
+		   "Salary":0
+		}, {
+			"id": "006",
+		   "FirstName": "David",
+		   "LastName": "Davidson",
+		   "email_address":"Davidson@yahoo.de",
+		   "Job_title":"Lagerarbeiter",
+		   "Salary":40000
+		}, {
+			"id": "007",
+		   "FirstName": "Phillip",
+		   "LastName": "Phil",
+		   "email_address":"p.phil@yahoo.de",
+		   "Job_title":"Manager",
+		   "Salary":60000
+		}, {
+			"id": "008",
+		   "FirstName": "Stefan",
+		   "LastName": "Schlosser",
+		   "email_address":"sschlosser@yahoo.de",
+		   "Job_title":"schlosser",
+		   "Salary":40000
+		}, {
+			"id": "009",
+		   "FirstName": "Julia",
+		   "LastName": "Vogel",
+		   "email_address":"j.vogel@yahoo.de",
+		   "Job_title":"Tieräztin",
+		   "Salary":50000
+		}, {
+			"id": "010",
+		   "FirstName": "Lukas",
+		   "LastName": "Schmidt",
+		   "email_address":"lschmidt@yahoo.de",
+		   "Job_title":"Techniker",
+		   "Salary":60000
+		}]
+  

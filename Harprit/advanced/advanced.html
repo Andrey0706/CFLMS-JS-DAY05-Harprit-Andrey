@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>advanced</title>
+</head>
+<body>
+	<ul id="unorderedList">
+	</ul>
+	<script  type="text/javascript" src="book.json" ></script>
+	<script>
+
+	// ++++++++++++++++++++++++++++++++++++++++++++++  ONE  ++++++++++++++++++++++++++++++++++++++++++++++	
+	var i = 0
+	    for (i = 0; i < book.length; i++) {
+	        document.write("<p> Book title: " + book[i].title +"</p>");
+	        document.write("<p> Autor: " + book[i].author + "</p>");
+	    }
+
+	// ++++++++++++++++++++++++++++++++++++++++++++++  TWO  ++++++++++++++++++++++++++++++++++++++++++++++
+
+	var i = 0
+		document.write("<ul>");
+	    for (i = 0; i < book.length; i++) {
+	    	
+	        document.write("<li> "+book[i].title+" </li>");
+	        // document.write("<li> "+book[i].author+" </li>");
+	        // document.write("<li> "+book[i].read+" </li>");
+	    }
+	    document.write("</ul>");
+
+	// ++++++++++++++++++++++++++++++++++++++++++++++  THREE  ++++++++++++++++++++++++++++++++++++++++++++++
+
+		for(var i=0; i<book.length; i++){
+			var node = document.createElement("LI");
+			var element = document.getElementById("unorderedList").appendchild(node);
+		}
+
+		var allLi = document.getElementsByTagName("li");
+
+			for(var i=0; i <book.length; i++){
+				allLi[i].innerHTML = `
+				<div>
+					<img src="${book[i].img}">
+				</div>
+				<p>${book[i].title}</p>
+				<p>${book[i].author}</p>
+				</div>
+				`
+				if (book[i].read == "true") {
+					allLi[i].style.opacity = `0.2`;
+				}
+			}
+
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>intermediate</title>	
+</head>
+<body>
+
+
+	<script  type="text/javascript" src="employee.json" ></script>
+	<script>
+	document.write("<h2>JSON array object</h2>");		
+  
+	var i = 0
+
+	    for (i = 0; i < employee.length; i++) {
+
+	        document.write("<table border='1' width=200 >");
+	        document.write("<tr><td><b>ID</b></td><td width=50>" + employee[i].id + "</td></tr>");
+	        document.write("<tr><td><b>First Name</b></td><td width=50>" + employee[i].FirstName + "</td></tr>");
+	        document.write("<tr><td><b>Last Name</b></td><td width=50>" + employee[i].LastName + "</td></tr>");
+	        document.write("<tr><td><b>E-mail</b></td><td width=50>" + employee[i].email_address + "</td></tr>");
+	        document.write("<tr><td><b>Job-Title</b></td><td width=50>" + employee[i].Job_title + "</td></tr>");
+	        document.write("<tr><td><b>Salary</b></td><td width=50>" + employee[i].Salary + "</td></tr>");
+	        document.write("</table>");
+	    }
+
+
+	</script>
+</body>
+</html>
+
+    
