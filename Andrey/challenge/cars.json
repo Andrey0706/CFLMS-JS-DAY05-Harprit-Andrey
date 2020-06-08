@@ -1,0 +1,46 @@
+var cars = `[{
+	"img": "img/jetta.png",
+	"name": "Jetta",
+	"size": "compact sedan",
+	"price": "$18,895"
+},{
+	"img": "img/jettaGli.png",
+	"name": "Jetta GLI",
+	"size": "performance sedan",
+	"price": "$26,245"
+},{
+	"img": "img/passat.png",
+	"name": "Passat",
+	"size": "midsize sedan",
+	"price": "$22,995"
+},{
+	"img": "img/arteon.png",
+	"name": "Arteon",
+	"size": "premium sport sedan",
+	"price": "$35,995"
+},{
+	"img": "img/tiguan.png",
+	"name": "Tiguan",
+	"size": "The stylish SUV",
+	"price": "$24,945"
+},{
+	"img": "img/atlas.png",
+	"name": "Atlas Cross Sport",
+	"size": "the bold SUV",
+	"price": "$30,545"
+},{
+	"img": "img/atlas2.png",
+	"name": "Atlas",
+	"size": "The family SUV",
+	"price": "$31,545"
+},{
+	"img": "img/beetle.png",
+	"name": "Beetle",
+	"size": "The sporty icon",
+	"price": "$20,895"
+},{
+	"img": "img/golf.png",
+	"name": "Golf GTI",
+	"size": "the hot hatch",
+	"price": "$28,595"
+}]`;

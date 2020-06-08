@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Challenge</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+	<div id="headerTop">
+		<div id="headerLeft"><img src="img/logo.png" alt=""></div>
+		<div></div>
+	</div>
+	<nav>
+		<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Other products</a></li>
+		</ul>
+	</nav>
+</header>
+<h1>OUR CARS</h1>
+
+<div id="container">
+
+	
+</div>
+	<footer>
+		<p>Car shop 2020. All rights reserved</p>
+	</footer>
+
+
+<script src="cars.json"></script>
+<script>
+	
+	var cars = JSON.parse(cars);
+	console.log(cars);
+	var container = document.getElementById("container");
+
+
+	for(i=0;i<cars.length;i++){
+		container.innerHTML += `
+			<div class="carBox"  id="${i}">
+				<div class="carData" id="carData${i}">
+					<p>${cars[i].name}</p>
+					<p>${cars[i].size}</p>
+					<p>${cars[i].price}</p>		
+				</div>
+				<div class="carImg" id="carImg${i}"><img src="${cars[i].img}" alt=""></div>
+				<div class="carFooter">
+					<p>${cars[i].name}</p>
+				</div>
+			</div>
+			`
+	}
+
+	var carBox = document.getElementsByClassName("carBox");
+	var carData = document.getElementsByClassName("carData");
+	var carImg = document.getElementsByClassName("carImg");
+
+	for(i=0;i<carBox.length;i++){
+		carBox[i].addEventListener("mouseenter", showData, false);
+		carBox[i].addEventListener("mouseleave", resetData, false);
+
+	}
+
+	function showData(event) {
+		console.log(event.currentTarget.id);
+		carData[event.currentTarget.id].style.display = "block";
+		carImg[event.currentTarget.id].style.display = 'none'
+	}
+
+	function resetData(event){
+		carData[event.currentTarget.id].style.display = "none";
+		carImg[event.currentTarget.id].style.display = 'inherit'
+	}
+</script>
+</body>
+</html>
